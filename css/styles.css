@@ -3,83 +3,14 @@
     /*Hero-sectiov*/
 
     /* Section-benefits*/
-.benefits {
-    padding-bottom: 94px;
-    padding-top: 94px;
-}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-.benefits__features{
-    display: flex;
-    flex-wrap: wrap;
-}
-.benefits__item+.item{
-    margin-left: 30px;
-}
-.benefits__item{
-    width: 270px;
-}
-
-.benefits__icon{
-    width: 270px;
-    height: 120px;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/*.benefits .item::before {
-    content: "";
-    display: block;
-    height: 120px;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    padding: 25px 100px;
-    margin-bottom: 30px;
-}
-.icon-antenna:before{
-    background-image: url("../images/antenna\ 1.svg");
-}
-.icon-clock:before{
-    background-image: url("../images/clock\ 1.svg");
-}
-.icon-diagram:before{
-    background-image: url("../images/diagram\ 1.svg");
-}
-.icon-astronaut:before{
-    background-image: url("../images/astronaut\ 1.svg");
-}*/
-
-.benefits__details {
-    margin-bottom: 10px;
-    line-height: 1.14;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: var(--title-text-color);
-}
-.benefits__description {
-    line-height: 1.71;
-    color: var(--primary-text-color);
-}
 
     /*SECTION WORK*/
+
+.work {
+    display: flex;
+    padding-bottom: 94px;
+}
 
 .work__title{
     font-size: 36px;
@@ -91,11 +22,6 @@
 .work__box{
     display: flex;
     flex-wrap: wrap;
-}
-
-.work {
-    display: flex;
-    padding-bottom: 94px;
 }
 
 .work__item+.item {
