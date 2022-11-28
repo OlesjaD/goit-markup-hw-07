@@ -2,20 +2,20 @@
     padding-bottom: 94px;
     padding-top: 94px;
 
-    .&__features {
+    &__features {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .&__item+.item {
+    &__item+.item {
         margin-left: 30px;
     }
 
-    .&__item {
+    &__item {
         width: 270px;
     }
 
-    .&__icon {
+    &__icon {
         width: 270px;
         height: 120px;
         background-color: #F5F4FA;
@@ -25,7 +25,7 @@
         align-items: center;
         justify-content: center;
     }
-    .&__details {
+    &__details {
         margin-bottom: 10px;
         line-height: 1.14;
         font-size: 14px;
@@ -33,7 +33,7 @@
         color: var(--title-text-color);
     }
 
-    .&__description {
+    &__description {
         line-height: 1.71;
         color: var(--primary-text-color);
     }

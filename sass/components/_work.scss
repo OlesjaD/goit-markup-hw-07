@@ -1,19 +1,20 @@
-.work {
+.work{
     display: flex;
     padding-bottom: 94px;
+    &__title {
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--title-text-color);
+        margin-bottom: 50px;
+    }
 
-    & .title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--title-text-color);
-    margin-bottom: 50px;
-}
-    & .box {
+    &__box {
         display: flex;
         flex-wrap: wrap;
     }
-    & .item {
+
+    &__item {
         position: relative;
 
         display: flex;
@@ -21,15 +22,12 @@
         justify-content: center;
     }
 
-    & .item+.item {
+    &__item+.item {
         margin-left: 30px;
     }
 
-
-
-    & .overlay-text {
+    &__overlay-text {
         position: absolute;
-
         bottom: 0;
 
         width: 370px;
